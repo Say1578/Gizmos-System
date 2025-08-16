@@ -18,7 +18,7 @@ namespace GizmosSystem
         private Vector2 scrollPos;
 
         private const float MinWindowWidth = 250;
-        private const float MinWindowHeight = 100;
+        private const float MinWindowHeight = 300;
         private const float ButtonHeight = 20;
 
         private void OnEnable()
