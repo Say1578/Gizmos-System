@@ -95,7 +95,7 @@ namespace GizmosSystem
                 ? new Color(0.22f, 0.22f, 0.22f) // Темная тема
                 : new Color(0.76f, 0.76f, 0.76f); // Светлая тема
 
-            EditorGUI.DrawRect(headerRect, headerColor); // Под стандарт сдлеать юнити выборку цвета
+            EditorGUI.DrawRect(headerRect, headerColor);
             GUI.Label(headerRect, "Module", headerLabelStyle);
 
             var filteredModules = FilterModules(searchQuery);
@@ -112,7 +112,7 @@ namespace GizmosSystem
                             ? new Color(0.26f, 0.48f, 0.78f, 0.5f) // Темная тема
                             : new Color(0.26f, 0.48f, 0.78f, 0.3f); // Светлая тема
 
-                        EditorGUI.DrawRect(buttonRect, hoverColor); // Под стандарт сдлеать юнити выборку цвета
+                        EditorGUI.DrawRect(buttonRect, hoverColor); 
                     }
 
                     GUI.Label(buttonRect, type.Name, buttonStyle);
